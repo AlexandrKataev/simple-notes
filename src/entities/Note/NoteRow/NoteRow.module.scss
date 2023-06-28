@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #1a1a1a;
+  border-bottom: 2px white solid;
+}
+
+.checkbox {
+  margin-left: auto;
+}
+
+.red {
+  background-color: var(--color-red-background);
+}
+
+.orange {
+  background-color: var(--color-orange-background);
+}
+
+.yellow {
+  background-color: var(--color-yellow-background);
+}
+
+.green {
+  background-color: var(--color-green-background);
+}
+
+.blue {
+  background-color: var(--color-blue-background);
+}
+
+.purple {
+  background-color: var(--color-purple-background);
+}
+.black {
+  background-color: var(--color-black-background);
+}
+
+.gray {
+  background-color: var(--color-gray-background);
+}
+.white {
+  background-color: var(--color-white-background);
+}

@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--color-header-background);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 50px;
+  border-bottom: 2px white solid;
+
+  .logo {
+    color: var(--color-header-text);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+
+  .buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    .button {
+      width: 50px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-left: 1px solid;
+      border-color: #c9c9c9;
+
+      &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+  }
+}
