@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+.signIn,
+.signOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signOut {
+  background-color: aqua;
+}
+
+input {
+  padding: 7px 0px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  &:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(173, 173, 173);
+  }
+
+  &:not(:placeholder-shown) {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 173, 173);
+  }
+}
+
+button {
+  height: 40px;
+  padding: 0px 20px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  cursor: pointer;
+}
